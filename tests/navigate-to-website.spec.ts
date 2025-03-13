@@ -5,7 +5,7 @@ test('page has expected title', async ({ page }) => {
 
   // Expect a title to match
   await expect(page).toHaveTitle('Automation Exercise');
-  // Expect correct header tabs/links appear
+  // Expect correct header tabs and links appear
   const homeLink = page.getByRole('link', { name: ' Home' });
   await expect(homeLink).toBeVisible();
   const productsLink = page.getByRole('link', { name: ' Products' });
