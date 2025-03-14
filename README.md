@@ -1,6 +1,6 @@
 # Automation testing Exercise
 
-A starter reposotoryrepository for writihng end-to-end tests using Playwright and Typescript
+A starter rrepository for writing end-to-end tests using Playwright and Typescript
 
 ## What's Inside
 
