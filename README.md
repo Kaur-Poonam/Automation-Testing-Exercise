@@ -15,7 +15,13 @@ A starter rrepository for writing end-to-end tests using Playwright and Typescri
 
 ## To run the tests
 
-`npx playwright test` command that will run all the tests from `tests` folder
+- To run all the tests use command `npx playwright test` that will execute the whole `tests` folder
+- To run a specific test only pass in the name of test file e.g. `npx playwright test login-spec.ts`
+
+## Headless and Headed mode
+
+- By default playwright will run the tests in a headless mode
+- To view execution and run tests in headed mode, use the `--headed` flag e.g. `npx playwright test --headed`
 
 ## View Report
 
